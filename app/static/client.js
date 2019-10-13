@@ -199,6 +199,7 @@ function analyze() {
 function obtainResult() {
 	result = attr.split(';');
 	resultLen = result.length;
+	el("result-label").innerHTML = '';
 	for (i = 0; i < resultLen; ++i) {
 		if(i != 0) el("result-label").innerHTML += ', ' + result[i];
 		else el("result-label").innerHTML += result[i];
