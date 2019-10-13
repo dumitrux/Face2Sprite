@@ -13,8 +13,7 @@ First of all, you have to see all the [Requirements](./requirements.txt), then r
 
     python3 app/server.py serve
 
-
-*Only tested in Linux
+And open the following url 'http://localhost:5000/'. PD: only tested in Linux
 
 ## Authors
 Alejandre Campos, German<br/>
