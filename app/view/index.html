@@ -1,0 +1,66 @@
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='../static/style.css'>
+        <script src='../static/client.js'></script>
+    </head>
+    <body>
+		<!--<img src="../static/8Bits/anigif.gif" alt="Foto">-->
+        <div>
+            <div class='center'>
+                <div class='title'>Face2Sprite &#128126;</div>
+                <div id='list'>
+                    <p>Real to 8 bits</p>
+                    <details>
+                        <summary>Attributes</summary>
+                        <ul>
+                            <li>Bald</li>
+                            <li>Bangs</li>
+                            <li>Black hair</li>
+                            <li>Blond hair</li>
+                            <li>Brown hair</li>
+                            <li>Gray hair</li>
+                            <li>Male</li>
+                            <li>Beard</li>
+                            <li>Pale skin</li>
+                            <li>Straight hair</li>
+                            <li>Wavy hair</li>
+                        </ul>
+                    </details>
+                </div>
+                <div class='content'>
+                    <div class='no-display'>
+                        <input id='file-input'
+                               class='no-display'
+                               type='file'
+                               name='file'
+                               accept='image/*'
+                               onchange='showPicked(this)'>
+                    </div>
+                    <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+                    <div class='upload-label'>
+                        <label id='upload-label'>No file chosen</label>
+                    </div>
+                    <div id='img-horitz'>
+						<div id='left'>
+							<img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+						</div>
+						<p id='flecha' height='200' class='no-display'>&#10145;</p>
+						<div id='right'>
+							<img id='bits8' class='no-display' alt='Photo 8bits' height='200'>
+						</div>
+                    </div>
+                    <div class='result-label'>
+                        <label id='result-label'></label>
+                    </div>
+                    <!--<div class='result-label'>
+                        <label id='result-label-8bits'></label>
+                    </div>-->
+                    <div class='analyze'>
+                        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

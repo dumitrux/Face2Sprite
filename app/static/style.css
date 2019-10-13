@@ -1,0 +1,109 @@
+* {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.no-display {
+    display: none !important;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #262626;
+}
+
+.content {
+    margin-top: 2em;
+}
+
+.analyze {
+    margin-top: 1em;
+}
+
+.upload-label {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button.choose-file-button {
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #7052CB;
+    font-size: 20px;
+    color: #7052CB;
+}
+
+button.analyze-button {
+    width: 220px;
+    height: 50px;
+    border: solid 1px #7052CB;
+    border-radius: 4px;
+    background-color: #7052CB;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#list {
+    font-size: 20px;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+#left {
+	display: inline-block;
+	position: relative;
+}
+
+#right {
+	display: inline-block;
+	position: relative;
+}
+
+#img-horitz {
+	display: inline-block;
+	position: relative;
+}
+
+#flecha {
+	display: inline-block;
+	position: relative;
+	font-size: 75px;
+	bottom: 75px;
+	margin: 0px 10px;
+}
