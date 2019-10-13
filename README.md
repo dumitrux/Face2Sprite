@@ -21,4 +21,6 @@ Or in python3:
 *Only tested in Linux
 
 ## Authors
+Alejandre Campos, German
 Danci, Marian Dumitru
+Gómez Virgili, Miquel
