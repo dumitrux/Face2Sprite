@@ -1,6 +1,11 @@
 # Face2Sprite
 App with you can take yourself a photo and have a 8 bit character with your faccial attributes.
 
+With [fastai](https://www.fast.ai) library.
+
+Prepared to run on [Render](https://render.com).
+
+You can find the source of the face-recognition modle [src/faceRecognition](faceRecognition.ipynb), all the code can be run it on Google Colab (you need to upload a kaggle.json API toke from your own account)
 
 ## Run the app server locally
 
@@ -15,5 +20,5 @@ Or in python3:
 
 *Only tested in Linux
 
-###Authors
+## Authors
 Danci, Marian Dumitru
