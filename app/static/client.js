@@ -198,7 +198,6 @@ function analyze() {
 
 function obtainResult() {
 	result = attr.split(';');
-	el("result-label").innerHTML = 'You: ';
 	resultLen = result.length;
 	for (i = 0; i < resultLen; ++i) {
 		if(i != 0) el("result-label").innerHTML += ', ' + result[i];
@@ -222,6 +221,7 @@ function obtainResult() {
 	img8bits = document.getElementById('bits8');
 	img8bits.src = '../static/8Bits/' + selected;
 	img8bits.className = "";
+	el('yourResult').className = "";
 	document.getElementById('flecha').className = "";
 	
 	//el("result-label-8bits").innerHTML = 'Your 8Bits character: ' + result;
